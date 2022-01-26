@@ -4,5 +4,5 @@ WORKDIR /app
 COPY package.json /app
 RUN npm install
 COPY . /app
-CMD node server.js
+CMD node mysql3.js
 EXPOSE 9000
